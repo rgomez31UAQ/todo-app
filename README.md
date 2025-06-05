@@ -1,4 +1,4 @@
-# Todo App - Gestión de Objetivos y Tareas
+# Todo App - Proyecto Desarollo Web App de Gestion de Objetivos y Tareas
 
 ## Tecnologías
 - React + Vite + Tailwind
