@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Todo App - Proyecto Desarollo Web App de Gestion de Objetivos y Tareas
+=======
+ # Todo App - Proyecto Desarollo Web App de Gestion de Objetivos y Tareas
+>>>>>>> a731a72 (Agregados Docker, seed de base de datos, componentes frontend y mejoras)
 
 ## Tecnologías
 - React + Vite + Tailwind
