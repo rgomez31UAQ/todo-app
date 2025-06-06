@@ -1,16 +1,26 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Lit + TS</title>
-    <link rel="stylesheet" href="./src/index.css" />
-    <script type="module" src="/src/my-element.ts"></script>
+
+    <!-- Título y descripción -->
+    <title>Todo App UAQ – Gestión de Tareas</title>
+    <meta name="description" content="App para crear, organizar y seguir tareas por objetivos. Proyecto UAQ - Facultad de Informática.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/src/assets/uaq-blanco.png" />
+
+    <!-- Color para navegadores móviles -->
+    <meta name="theme-color" content="#002855" />
+
+    <!-- Fuente institucional opcional (Roboto, Inter...) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- TailwindCSS estará disponible vía index.css ya importado en main.jsx -->
   </head>
-  <body>
-    <my-element>
-      <h1>Vite + Lit</h1>
-    </my-element>
+  <body class="bg-gray-100 text-gray-800 font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
